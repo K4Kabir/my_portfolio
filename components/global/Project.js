@@ -24,7 +24,7 @@ const projects = [
   {
     name: "Crypto Hunter",
     img: "/images/Hunter.png",
-    link: "https://app.netlify.com/sites/unrivaled-brioche-fc80bd/overview",
+    link: "https://unrivaled-brioche-fc80bd.netlify.app",
   },
 ];
 
@@ -46,9 +46,11 @@ const Project = () => {
                 <Image src={el.img} width={400} height={400} alt="image" />
                 <div className="flex justify-between items-center">
                   <p>Check it out</p>
-                  <button className="inline-flex h-12 animate-shimmer items-center justify-center rounded-md border border-slate-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] px-6 font-medium text-slate-400 transition-colors focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">
-                    <Github />
-                  </button>
+                  <a href={el.link} target="_blank">
+                    <button className="inline-flex h-12 animate-shimmer items-center justify-center rounded-md border border-slate-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] px-6 font-medium text-slate-400 transition-colors focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">
+                      <Github />
+                    </button>
+                  </a>
                 </div>
               </div>
             </BackgroundGradient>
