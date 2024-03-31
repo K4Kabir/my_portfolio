@@ -5,6 +5,7 @@ import { TypewriterEffect } from "../ui/typewriter-effect";
 import { motion } from "framer-motion";
 import { Button } from "../ui/button";
 import { Linkedin } from "lucide-react";
+import Skills from "./Skills";
 
 const Me = () => {
   const words = [
@@ -48,6 +49,7 @@ const Me = () => {
             Visit my LinkedIn <Linkedin className="pl-2" size={30} />
           </Button>
         </div>
+        <Skills />
       </div>
       <motion.div
         initial={{ opacity: 0, scale: 0 }}

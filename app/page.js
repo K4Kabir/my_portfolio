@@ -1,5 +1,8 @@
+import Contact from "@/components/global/Contact";
+import Experience from "@/components/global/Experience";
 import Header from "@/components/global/Header";
 import Me from "@/components/global/Me";
+import Project from "@/components/global/Project";
 import Skills from "@/components/global/Skills";
 
 export default function Home() {
@@ -7,7 +10,9 @@ export default function Home() {
     <div className="h-screen">
       <Header />
       <Me />
-      <Skills />
+      <Experience />
+      <Project />
+      <Contact />
     </div>
   );
 }
