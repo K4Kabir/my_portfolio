@@ -45,9 +45,14 @@ const Me = () => {
         </p>
         <div className="flex gap-3 py-6">
           <Button>Hire Me</Button>
-          <Button className="flex items-center content-center">
-            Visit my LinkedIn <Linkedin className="pl-2" size={30} />
-          </Button>
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/in/kabir-malviya-7660ab208/"
+          >
+            <Button className="flex items-center content-center">
+              Visit my LinkedIn <Linkedin className="pl-2" size={30} />
+            </Button>
+          </a>
         </div>
         <Skills />
       </div>

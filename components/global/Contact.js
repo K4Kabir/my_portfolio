@@ -34,7 +34,7 @@ const Contact = () => {
     }
   };
   return (
-    <div className="px-[7rem]">
+    <div className="px-[7rem] py-7">
       <h1 className="scroll-m-20 py-7 text-4xl font-extrabold tracking-tight lg:text-5xl">
         Contact Me
       </h1>
